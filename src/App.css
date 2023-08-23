@@ -1,0 +1,98 @@
+#input
+{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0rem;
+}
+
+.input1
+{
+    margin: 1rem 1rem;
+    width: 30rem;
+    font-size: 1.5rem;
+    text-align: right;
+    outline: none;
+    border-radius: 1rem;
+    box-shadow: 1px -5px 5px white;
+    color: white;
+    background-color: black;
+    padding: 0rem 1rem;
+}
+
+.input2
+{
+    margin: 1rem 1rem;
+    width: 30rem;
+    font-size: 1.5rem;
+    text-align: right;
+    outline: none;
+    border-radius: 1rem;
+    box-shadow: 1px -5px 5px white;
+    color: white;
+    background-color: black;
+    padding: 0rem 1rem;
+}
+
+input[type="name"]::placeholder {
+    text-align: center;
+}
+
+input[type="url"]::placeholder {
+    text-align: center;
+}
+
+.btn
+{
+    margin: 1rem 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: green;
+    color: white;
+    border-radius: 1rem;
+}
+
+#output-box
+{
+    margin: auto;
+    width: 80%;
+    border-radius: 1rem;
+    border: 1px solid white;
+    box-shadow: 1px -3px 10px white;
+}
+
+#output
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    color: white;
+}
+
+#output h4
+{
+    margin: 0rem 1rem;
+}
+
+#field
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#field h4{
+    margin-right: 14rem;
+    padding: 0.5rem 0.5rem;
+    color: white;
+}
+
+.button
+{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    background-color: red;
+    color: white;
+    border-radius: 0.5rem;
+}
